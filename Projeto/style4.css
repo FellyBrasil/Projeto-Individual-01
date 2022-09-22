@@ -1,0 +1,153 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: square;
+    font-family: "poppins", sans-serif;  
+}   
+
+body {
+    background-image:url(Imagens/os-contatos-index2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display:flex;/*para especificar a renderização utilizada*/
+    justify-content: space-around;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+ .cabeçalho-link {
+    cursor: pointer; 
+    gap: 3rem;
+    display: flex;
+    font-weight: 500;
+    
+
+}
+.cabeçalho-link a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.cabeçalho-link a:hover {
+
+    color: rgb(206, 116, 179);
+    transition: 0.4s all;
+    border-radius: 20px;
+    
+}
+
+button {
+
+    color: red;
+    border: solid 5px black;
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(2, 2, 0)
+    color: beige;
+    font-size: 20px
+}
+
+h1 {
+    padding: 0 150px 0 500px;
+    font-size: 39px;
+    border-radius: 15px solid;
+    color: rgb(39, 4, 68);
+    border-radius: 50px;
+    border-color: black;
+    
+}
+
+h3 {
+    padding: 0 150px 0 500px;
+    font-size: 19px;
+    border-radius: 15px solid;
+    color: rgb(39, 4, 68);
+    border-radius: 50px;
+    border-color: black;
+}
+
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    text-align: left;
+    align-items: center;
+    padding-top: 1rem;
+    background-size: cover;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    padding: 0 150px 0 500px;
+    border-radius: 15px solid;
+    font-size: 22px;
+    color: rgb(85 ,26 ,139);
+    border-color: black;
+    
+
+}
+h2 {
+    color: rgb(241, 222, 48);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    background-size: cover;
+    box-sizing: border-box;
+  text-decoration: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+form div + div {
+ margin-top: 1em;
+
+}
+
+label, input {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    align-items: center;
+    padding-top: 1rem;
+    background-size: cover;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(0 ,0 ,0);
+
+}
+
+textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    align-items: center;
+    padding-top: 1rem;
+    background-size: cover;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(0 ,0 ,0);
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+
+}
